@@ -18,8 +18,8 @@ jobs:
 
       - name: Set up Git config
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "shalini988shalu@gmail.com"
+          git config --global user.name "Shal3"
 
       - name: Add Hugging Face remote and push
         env:
