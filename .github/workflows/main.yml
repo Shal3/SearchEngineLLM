@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://shal1993:$HF_TOKEN@huggingface.co/spaces/shal1993/shal1993/Search_Engine_LLM main
+        run: git push --force https://shal1993:$HF_TOKEN@huggingface.co/spaces/shal1993/shal1993/Search_Engine_LLM main
